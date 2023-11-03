@@ -1,0 +1,67 @@
+max_min_l = 5
+max_min_r = 115
+cls_l = 125
+cls_r = 219
+thick_dec_l = 326
+thick_dec_r = 368
+thick_inc_l = 432
+thick_inc_r = 474
+white_l = 508
+white_r = 589
+yellow_l = 603
+yellow_r = 680
+red_l = 694
+red_r = 770
+green_l = 784
+green_r = 859
+blue_l = 875
+blue_r = 950
+black_l = 967
+black_r = 1039
+erase_l = 1065
+erase_r = 1165
+exit_l = 1200
+exit_r = 1280
+text_write_w = 1055
+text_select_w = 1020
+text_client_w = 5
+text_h = 712
+text_font_w = 387
+text_font_h = 91
+size_scale = 0.5
+
+
+
+
+
+max_min_l = 5
+max_min_r = 173
+cls_l = 190
+cls_r = 326
+thick_dec_l = 492
+thick_dec_r = 550
+thick_inc_l = 650
+thick_inc_r = 708
+white_l = 775
+white_r = 879
+yellow_l = 913
+yellow_r = 1017
+red_l = 1046
+red_r = 1150
+green_l = 1180
+green_r = 1284
+blue_l = 1316
+blue_r = 1420
+black_l = 1452
+black_r = 1556
+erase_l = 1620
+erase_r = 1743
+exit_l = 1782
+exit_r = 1920
+text_write_w = 1682
+text_select_w = 1653
+text_client_w = 5
+text_h = 1040
+text_font_w = 576
+text_font_h = 140
+size_scale = 1
