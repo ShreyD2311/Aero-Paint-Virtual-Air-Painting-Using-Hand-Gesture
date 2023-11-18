@@ -79,7 +79,7 @@ class handDetector():
 
         thumb_distance = self.calculate_distance(self.lm_list[self.finger_tip_id[3]],self.lm_list[self.finger_tip_id[4]])
         thumb_open4 = thumb_distance > 45
-        thumb_open = thumb_open1 and (thumb_open2 or thumb_open3 or thumb_open4)
+        thumb_open = thumb_open1 and thumb_open2 and (thumb_open3 or thumb_open4)
         fingers.append(1 if thumb_open else 0)
     
         # Check other fingers (indices 1 to 4)
@@ -95,7 +95,7 @@ class handDetector():
             finger_distance = self.calculate_distance(self.lm_list[self.finger_tip_id[i]],self.lm_list[0])
             finger_open3 = finger_distance > finger_distance_threshold
 
-            finger_open = finger_open1 and (finger_open2 or finger_open3)
+            finger_open = finger_open1 and finger_open2 and finger_open3
             fingers.append(1 if finger_open else 0)
     
         return fingers
